@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    overflow: auto;
+}
+
+p {
+    text-align:justify;
+    color: white;
+}
+
+.home {
+    background-image: url('/img/background.png');
+}
+
+.cabecalho {
+    position: fixed;
+    width: 98.71%;
+    height: 9%;
+    background-color: #5c1970;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    width: 100%;
+    padding: 50px 30px 0px 30px;
+    height: auto;
+}
+
+footer {
+    margin-top: 60px;
+}
+
+.navbar {
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-left: 29%;
+}
+
+.navbarL {
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.navbarL:hover {
+    transition-duration: 0.80s;
+    color: white;
+    text-decoration:underline orange;
+}
+
+.navbarL:active {
+    text-decoration:underline orange;
+}
+
+.fa-user-circle {
+    padding-right: 20px;
+    color: white;
+}
+
+.fa-user-circle:hover {
+    font-weight: bold;
+}
+
+.logo {
+    margin-left: 60px;
+}
+
+.cards {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-grow: 4;
+}
+
+.card-text {
+    color: black;
+}
+
+.rodape {
+    background-color: #70477c;
+    color: white;
+    height: 200px;
+}
